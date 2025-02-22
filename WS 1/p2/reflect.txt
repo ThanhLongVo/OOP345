@@ -1,0 +1,8 @@
+// Name: Thanh Long Vo
+// Seneca Student ID: 171587223
+// Seneca email: tlvo2@myseneca.ca
+// Date of completion: 15 May 2024
+// Workshop: 01
+// I declare that this submission is the result of my own work and I only copied the code that my professor provided // to complete my workshops and assignments. This submitted piece of work has not been shared with any other student // or 3rd party content provider.
+
+Workshop Object-Oriented Programming (OOP) has provided me with the opportunity to apply theory into practice through managing food orders in a C++ application. The main goal is to deeply understand how to design and implement classes in a real C++ program, command-line arguments, while improving memory management skills and handling strings, such as reading and retrieving data from files, understanding and correctly applying global variables like g_taxrate and g_dailydiscount, implementing logic to get the correct result of the discounted price of a dish is a problem that took me a lot of time to solve when the result didn't match my expectations. In addition, in part 2, I learned more about replacing character arrays with std::string, which helps to automatically manage memory. This exercise reminded me of the OOP244 course and helped me understand more about how the program works.

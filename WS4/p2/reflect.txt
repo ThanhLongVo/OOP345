@@ -1,0 +1,48 @@
+/*
+///////////////////////////////////////////////////////////////////////////
+                    OOP345 Workshop 4 - Part 2
+Full Name : Thanh Long Vo
+Student ID# : 171587223
+Email : tlvo2@myseneca.ca
+Section : ZCC
+Date: 05 Jun 2024
+File: reflect.txt
+Version: 1.0
+I declare that this submission is the result of my own work and I only copied the code that my professor provided to complete my workshops and assignments. This submitted piece of work has not been shared with any other student or 3rd party content provider.
+///////////////////////////////////////////////////////////////////////////
+*/
+
+The difference between the realization of composition and aggregation.
+-Composition:In ownership relationships, when the parent object is destroyed, the child object is also destroyed. In this article, the restaurant uses composition to manage reservation objects. All reservations managed by a restaurant are also canceled when the restaurant is canceled:
+	~Restaurant() {
+    for (size_t i = 0; i < count; ++i) {
+        delete reservations[i];
+    }
+    delete[] reservations;
+}
+
+Aggregation is defined as a "whole/part" relationship, where the parts can function independently from the whole. ConfirmationSender uses a set in this article to manage Reservation objects without owning them:
+	
+	ConfirmationSender& operator+=(const Reservation& res) {}
+
+
+The difference between the realization of the move and copy functions.
+	Copy Constructor and Copy Assignment Operator:
+	Composition: Copy the entire object along with its child objects. For example, when copying Restaurant, all Reservations are also copied.
+		Restaurant::Restaurant(const Restaurant& other) : Restaurant(other.reservations, other.count) {}
+		Restaurant& Restaurant::operator=(const Restaurant& other) {}
+	
+	Aggregation: Copy the addresses of the child objects, not the objects themselves. For example, when copying ConfirmationSender, only the addresses of the Reservations are copied.
+		ConfirmationSender& ConfirmationSender::operator=(const ConfirmationSender& other) {}
+
+	
+	Move Constructor and Move Assignment Operator:
+	Composition: Move the entire object along with its child objects. For example, when moving a Restaurant, all Reservations are also moved.
+		Restaurant::Restaurant(Restaurant&& other) noexcept : reservations(other.reservations), count(other.count) {
+   		 other.reservations = nullptr;
+    		 other.count = 0;
+		}
+	Aggregation: Move the addresses of the child objects, not the objects themselves. For example, when moving ConfirmationSender, only the addresses of the Reservations are moved.
+		ConfirmationSender& ConfirmationSender::operator=(ConfirmationSender&& other) noexcept {}	
+In object-oriented programming, this exercise has improved my understanding of concepts such as composition, aggregation, and association. Additionally, I have discovered how to apply copy and move functions in both of these contexts to real-world exercises.
+	

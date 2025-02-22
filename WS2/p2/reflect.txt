@@ -1,0 +1,20 @@
+/*
+///////////////////////////////////////////////////////////////////////////
+                    OOP345 Workshop 2 - Part 2
+Full Name : Thanh Long Vo
+Student ID# : 171587223
+Email : tlvo2@myseneca.ca
+Section : ZCC
+Date: 20 May 2024
+File: ProteinDatabase.cpp
+Version: 2.0
+I declare that this submission is the result of my own work and I only copied the code that my professor provided to complete my workshops and assignments. This submitted piece of work has not been shared with any other student or 3rd party content provider.
+#pragma once
+///////////////////////////////////////////////////////////////////////////
+*/
+I have learned and practiced the key skills of the C++ programming language in this lesson. These include resource management, performance optimization, and the use of advanced concepts such as move semantics and copy semantics.
+When programming in C++, resource management is one of the most important factors. Proper use and release of dynamic memory help prevent errors such as memory leaks and optimize program performance. I have learned how to use pointers to manage resources and implement constructors and destructors to ensure that resources are properly released in this exercise.
+The concept of copy semantics is important for ensuring that all resources of an object are accurately copied. This has helped me better understand how to duplicate data and manage resources in complex objects, as I have learned to use the copy constructor and the copy assignment operator.
+An advanced concept called move semantics helps optimize performance by transferring resources from one object to another instead of copying them. When working with large objects or expensive resources, I realized the importance of performance optimization by using the move constructor and move assignment operator. Move semantics speed up program execution and reduce the cost of unnecessary copying.
+The exercise required the use of the `std::chrono` library to track the execution time of tasks. This helped me better understand how to measure and optimize the performance of specific code segments, as well as how to efficiently perform these tasks using the available tools in C++.
+The exercise required reading and processing data from a file, which helped me improve my skills in working with files in C++. I discovered how to use `std::ifstream` to read and process files efficiently. Reading and counting the number of records in the file helped me better understand how to handle input data from various sources.

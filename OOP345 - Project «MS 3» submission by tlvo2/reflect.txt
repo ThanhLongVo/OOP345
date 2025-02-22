@@ -1,0 +1,18 @@
+// Name: Thanh Long Vo
+// Seneca Student ID: 171587223
+// Seneca email: tlvo2@myseneca.ca
+// Date of completion: 28 Jul 2024
+// 
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+It was a difficult and educational experience for me to execute the OOP345 course's final project. This project gave me the chance to put what I had learned about programming into practice, particularly when dealing with classes, namespaces, and file management, in addition to testing my programming skills.
+
+Among the most challenging things I had to deal with was memory management. In particular, it was difficult to make sure there were no memory leaks and to use pointers appropriately. I had to take my time going over the documentation again, looking over the examples, and carefully exercising memory allocation and deallocation. I now have a better understanding of C++ memory management thanks to this procedure, but I still believe that more practice is necessary to become an expert in this area.
+
+Another aspect of the project that I found challenging was file handling. I had to have a solid grasp of data streams and the various C++ file manipulation functions in order to read and write data to and from files. I encountered a few mistakes, such misreading data or trying to access a file that wasn't there. By conducting study and consulting with educators and friends, I progressively overcome these challenges and enhanced my file management abilities.
+
+Debugging and identifying coding mistakes presented another difficulty. I occasionally felt helpless while attempting to resolve an ambiguous problem or when the software did not function as intended. But during this process, I developed my patience and learnt how to utilize debugging tools and data printing techniques to watch the program's execution on the console.
+
+Despite encountering several obstacles and hurdles, I also recognized that I had advanced from the start. I now know how to look for supporting evidence, put theory into practice, and look for answers from potential sources. I think these worthwhile experiences will be a huge help to me in the future when I pursue a career in programming.
+
+In conclusion, the OOP345 course final project presented me with a substantial challenge as well as a chance to study, advance, and advance in the programming domain. In order to feel more confidence working on projects in the future, I'm excited to keep expanding my knowledge and skill set.

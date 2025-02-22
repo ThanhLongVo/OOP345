@@ -1,0 +1,21 @@
+/*
+///////////////////////////////////////////////////////////////////////////
+                    OOP345 Workshop 3 - Part 2
+Full Name : Thanh Long Vo
+Student ID# : 171587223
+Email : tlvo2@myseneca.ca
+Section : ZCC
+Date: 31 May 2024
+File: reflect.txt
+Version: 1.0
+I declare that this submission is the result of my own work and I only copied the code that my professor provided to complete my workshops and assignments. This submitted piece of work has not been shared with any other student or 3rd party content provider.
+#pragma once
+///////////////////////////////////////////////////////////////////////////
+*/
+
+Completing this exercise has helped me understand more about advanced concepts in C++, such as inheritance, template specialization, and template classes.
+Class objects like m_smallestItem and m_largestItem are defined outside the class to ensure that only one static instance of these members is shared among all objects of the template class. Static members in C++ must be defined outside the class before they are allocated memory.
+Specialize the m_smallestItem and m_largestItem attributes for Book and '10' to manage the unique attributes of the Book class. This ensures that the collection is suitable for objects in the Book and provides important comparisons.
+In order for OrderedCollection to handle Book objects accurately, '72' must be initialized.
+One of the biggest challenges I have faced is ensuring the definition and implementation of complete template functions for all specific types of data and sizes. I encountered unresolved symbol errors when declaring functions like print as virtual in the Collection class because I did not provide sufficient definitions for data types such as int and double.
+Although I have completed the exercise, I still feel that there are many points that need to be learned and improved in order to understand and apply correctly about class template.
